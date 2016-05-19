@@ -389,7 +389,7 @@ public class SampleApplicationSession
             // Prevent the onDestroy() method to overlap with initialization:
             synchronized (mShutdownLock)
             {
-                Vuforia.setInitParameters(mActivity, mVuforiaFlags, "AWdQ3JD/////AAAAAaPhNGSpj0tjj+P5goJiCQI7vHo+0cVTZzmWSfCTgQx3UEkJeJJIP7gThO2iJAaA3UtU8OjCBc0EQBcCg8aJTiT2dVN+EhTj51TDodTDeqvK2QxLNSWton+iYn8kEy8nTG7qMkeAaqaNMQq/OXNb7AV6jDn5zMc+gq7v9w3PI7QK8kMfBf9AzGb/UAiUFVkRn8zH4zP238VXPSr+mCTWQ8JMmSmeQaccrs5q5xCmUZthi7j7m6OUGUiBttROIP0tgNI9+uIaRreWCRxFaqi/vQBx2v5hj25XLHgBi2NRJI4hVdPAIXzLuTVMLGKGWYmxU3YB+is9F9vbhI4eyUezImCz+eqT5Gwh6nRmc5hFIQHy");
+                Vuforia.setInitParameters(mActivity, mVuforiaFlags, "");
                 do
                 {
                     // Vuforia.init() blocks until an initialization step is
